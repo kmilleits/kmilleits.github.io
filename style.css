@@ -1,0 +1,60 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(127, 0, 254);
+    width: 90%;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(178, 102, 248);
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+header h1{
+    font-size: 50px;
+
+}
+
+header h3{
+    font-size: 25px;
+
+}
+
+.hoje{
+    width: 80%;
+    background-color: rgb(206, 188, 239);
+    margin: 50px auto;
+    padding: 50px;
+    border-radius: 25px;    
+    box-shadow: 5px 5px 10px rgb(39, 39, 40) ;
+
+}
+
+.hoje p{
+    padding: 10px 0px;
+    font-size: 25px;
+}
+
+.data{
+    font-weight: bold;
+}
+
+.dias{
+    width: 80%;
+    background-color: rgb(206, 188, 239);
+    margin: 50px auto;
+    padding: 50px;
+    border-radius: 25px;    
+    box-shadow: 5px 5px 10px rgb(39, 39, 40) ;
+    
+}
